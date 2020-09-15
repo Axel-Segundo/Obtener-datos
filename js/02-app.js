@@ -13,5 +13,8 @@ function mostraHTML({ empresa, id, nombre, trabajo}) {
 
     contenido.innerHTML = `
         <p>Empleado: ${nombre}</p>
+        <p>ID: ${id}</p>
+        <p>Empresa: ${empresa}</p>
+        <p>Trabajo: ${trabajo}</p>
     `;
 }
